@@ -9,7 +9,9 @@ export default {
 }
 </script>
 <style>
+
 @import './common/style/reset.css';
+
 </style>
 
 

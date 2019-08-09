@@ -18,13 +18,10 @@
             </div>
             <p class="tip" v-show="errorTip">{{errorTip}}</p>
         </Dialogui>
-        <!-- <Elswiper :swiperData="imgData" :options="options"></Elswiper> -->
-        <Button></Button>
     </div>
 </template>
 <script>
 import evHub from '../../common/evHub.js';
-import {Button} from 'element-ui';
 import './style.scss';
 import topNav from '../../components/top-nav/index.vue';
 import Dialogui from '../../components/dialogui/index.vue';
@@ -36,8 +33,7 @@ export default {
     components: {
         topNav,
         Dialogui,
-        Elswiper,
-        Button
+        Elswiper
     },
     data() {
         return {

@@ -1,7 +1,7 @@
 <template>
     <div class="swiper-container" v-if="swiperData && swiperData.length">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" v-for="(item, index) in swiperData" v-html="item.template" :key="'s_'+ index"></div>
+            <div class="swiper-slide" v-for="(item, index) in swiperData" v-html="item.template" :key="'d_'+ index"></div>
         </div>
     </div>
 </template>

@@ -39,6 +39,7 @@ if(env === 'production') {
     })
 }
 
+// 封装pos请求
 function post(url, params) {
     return new Promise((resolve, reject) => {
         Axios.post(url, qs.stringify(params))
@@ -51,6 +52,7 @@ function post(url, params) {
     })
 }
 
+// 封装get请求
 function get(url, params) {
     return new Promise((resolve, reject) => {
         Axios.get(url, {
