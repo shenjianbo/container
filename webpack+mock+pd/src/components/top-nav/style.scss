@@ -1,0 +1,36 @@
+.top-nav-container {
+    height: 40px;
+    background: #f9f9f9;
+    .fixed-width {
+        width: 1200px;
+        margin: 0 auto;
+        height: 100%;
+        >ul {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >li {
+                span {
+                    margin-right: 20px;
+                    cursor: pointer;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    &.red {
+                        color: red;
+                    }
+                    &.green {
+                        color: green;
+                    }
+                    &.blue {
+                        color: blue;
+                    }
+                    &.orange {
+                        color: orange;
+                    }
+                }
+            }
+        }
+    }
+}

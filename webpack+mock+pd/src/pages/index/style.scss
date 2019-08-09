@@ -1,0 +1,29 @@
+.index-container {
+    .content-con {
+        >p {
+            display: flex;
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            } 
+            >span {
+                width: 60px;
+            }
+            >input {
+                flex: 1;
+                padding: 2px;
+            }
+        }
+    }
+    .tip {
+        color: red;
+        margin-top: 15px;
+    }
+    .tab {
+        li {
+            &.active {
+                color: red;
+            }
+        }
+    }
+}
